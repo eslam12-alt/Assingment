@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="routecourses.CourseAcitvity"
+
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/android_courses"
+        style="@style/ImageView"
+        android:onClick="OnClickListener"
+        android:src="@drawable/android" />
+
+    <Button
+        android:id="@+id/android_button"
+        style="@style/Button"
+        android:onClick="OnClickListener"
+
+        android:text="ANDROID COURSES" />
+
+    <ImageView
+        android:id="@+id/ios_courses"
+        style="@style/ImageView"
+        android:onClick="OnClickListener"
+        android:src="@drawable/ios" />
+
+    <Button
+        android:id="@+id/ios_button"
+        style="@style/Button"
+        android:onClick="OnClickListener"
+        android:text="IOS COURSES" />
+    <ImageView
+        android:id="@+id/fullstack_courses"
+        style="@style/ImageView"
+        android:src="@drawable/fullstack"
+        android:onClick="OnClickListener"
+    />
+
+    <Button
+        android:id="@+id/fullstack_button"
+        style="@style/Button"
+        android:onClick="OnClickListener"
+        android:text="FULLSTACK COURSES" />
+</LinearLayout>
+    </ScrollView>
